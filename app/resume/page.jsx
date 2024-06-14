@@ -69,7 +69,7 @@ const education = {
     "I'm currently pursuing B.Tech Information Technology final year in KSR College of Engineering.",
   items: [
     {
-      institution: "84%",
+      institution: "86%",
       position: "Bharathi Vidhyalaya Matric Hr Sec School.",
       duration: "2018 - 2019(10th Standard)",
     },
@@ -79,7 +79,7 @@ const education = {
       duration: "2020 - 2021(12th Standard)",
     },
     {
-      institution: "8 Cgpa(current)",
+      institution: "8Cgpa(current)",
       position: "KSR College of Engineering",
       duration: "2021-current(B.Tech IT)",
     },
