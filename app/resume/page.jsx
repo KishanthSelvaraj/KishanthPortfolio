@@ -70,7 +70,7 @@ const education = {
   items: [
     {
       institution: "84%",
-      position: "Bharathi Vidhyalaya Metric Hr Sec School.",
+      position: "Bharathi Vidhyalaya Matric Hr Sec School.",
       duration: "2018 - 2019(10th Standard)",
     },
     {
