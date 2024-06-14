@@ -21,7 +21,7 @@ const projects = [
     title: "CaterServ (frontend)",
     description:
       "This is a frondend project which is duplication of real CaterServ website",
-    stack: [{ name: "Html 5" }, { name: "Css 3" },],
+    stack: [{ name: "Html" }, { name: "Css" },],
     image: "/assets/assets/work/thumb1.jpg",
     live: "https://caterserv.vercel.app/",
     github: "https://github.com/KishanthSelvaraj/Caterserv",
@@ -32,7 +32,7 @@ const projects = [
     title: "Mobile Shop(frontend)",
     description:
       "This is a static project for mobile shop also with simple dyanamic functions.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" } ,{name:"Node.js"}],
+    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" } ,{name:"Node.js"}],
     image: "/assets/assets/work/thumb2.jpg",
     live: "https://mobile-showroom.vercel.app/",
     github: "/restricted",
@@ -43,7 +43,7 @@ const projects = [
     title: "Static Website(frontend)",
     description:
       "This is the static websites with some animations using gsap.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }, {name:"React.js"}],
+    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React.js"}],
     image: "/assets/assets/work/thumb3.jpg",
     live: "https://ils-jade.vercel.app/",
     github: "/restricted",
@@ -54,7 +54,7 @@ const projects = [
     title: "Interior Design(frontend)",
     description:
       "This is a static project for mobile shop also with simple dyanamic functions.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }, {name:"React.js"},{name:"Node.js"}],
+    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React.js"},{name:"Node.js"}],
     image: "/assets/assets/work/thumb4.jpg",
     live: "https://dream-interior-gold.vercel.app/",
     github: "/restricted",
