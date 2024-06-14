@@ -42,7 +42,7 @@ const about = {
     },
     {
       fieldName: "Language",
-      fieldValue: "English,Tamil",
+      fieldValue: "Tamil","English"
     },
   ],
 };
