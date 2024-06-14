@@ -18,7 +18,7 @@ const projects = [
   {
     num: "01",
     category: "frontend",
-    title: "CaterServ (frontend)",
+    title: "CaterServ Website",
     description:
       "This is a frondend project which is duplication of real CaterServ website",
     stack: [{ name: "Html" }, { name: "Css" },],
@@ -29,7 +29,7 @@ const projects = [
   {
     num: "02",
     category: "frontend",
-    title: "Mobile Shop(frontend)",
+    title: "Mobile Shop Website",
     description:
       "This is a static project for mobile shop also with simple dyanamic functions.",
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" } ,{name:"Node.js"}],
@@ -40,7 +40,7 @@ const projects = [
   {
     num: "03",
     category: "frontend",
-    title: "Static Website(frontend)",
+    title: "Static Website",
     description:
       "This is the static websites with some animations using gsap.",
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React.js"}],
@@ -51,7 +51,7 @@ const projects = [
   {
     num: "04",
     category: "frontend",
-    title: "Interior Design(frontend)",
+    title: "Interior Design Website",
     description:
       "This is a static project for mobile shop also with simple dyanamic functions.",
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React.js"},{name:"Node.js"}],
