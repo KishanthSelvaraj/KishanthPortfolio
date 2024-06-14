@@ -31,7 +31,7 @@ const projects = [
     category: "frontend",
     title: "Mobile Shop Website",
     description:
-      "This is a static project for mobile shop also with simple dyanamic functions.",
+      "This is a static project for mobile shop also with simple dynamic functions.",
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" } ,{name:"Node.js"}],
     image: "/assets/assets/work/thumb2.jpg",
     live: "https://mobile-showroom.vercel.app/",
@@ -53,7 +53,7 @@ const projects = [
     category: "frontend",
     title: "Interior Design Website",
     description:
-      "This is a static project for interior design shop with simple dyanamic functions.",
+      "This is a static project for interior design shop with simple dynamic functions.",
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React.js"},{name:"Node.js"}],
     image: "/assets/assets/work/thumb4.jpg",
     live: "https://dream-interior-gold.vercel.app/",
