@@ -71,12 +71,12 @@ const education = {
     {
       institution: "86%",
       position: "Bharathi Vidhyalaya Matric Hr Sec School.",
-      duration: "2018 - 2019(10th Standard)",
+      duration: "2018 - 2019(SSLC)",
     },
     {
       institution: "85%",
       position: "Bharathi Vidhyalaya Higher Sec School.",
-      duration: "2020 - 2021(12th Standard)",
+      duration: "2020 - 2021(HSC)",
     },
     {
       institution: "8Cgpa(current)",
