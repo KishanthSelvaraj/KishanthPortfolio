@@ -52,7 +52,7 @@ const experience = {
   icon: "/assets/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "I have done my 6 months of Internship in Axexa technology Solution.",
+    "I have done my 6 months of Internship in Axexa Technology Solution.",
   items: [
     {
       company: "Axexa Technology Solution",
