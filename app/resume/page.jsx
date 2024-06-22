@@ -8,7 +8,7 @@ import {
   FaNodeJs,
   FaBootstrap,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs , SiMongodb  } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs , SiMongodb ,SiExpress   } from "react-icons/si";
 
 const about = {
   title: "About me",
@@ -42,7 +42,7 @@ const about = {
     },
     {
       fieldName: "Language",
-      fieldValue: "English,Tamil",
+      fieldValue: "Tamil,English",
     },
   ],
 };
@@ -52,7 +52,7 @@ const experience = {
   icon: "/assets/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "I have done my 6 months of Internship in Axexa technology Solution.",
+    "I have done my 6 months of Internship in Axexa Technology Solution.",
   items: [
     {
       company: "Axexa Technology Solution",
@@ -69,17 +69,17 @@ const education = {
     "I'm currently pursuing B.Tech Information Technology final year in KSR College of Engineering.",
   items: [
     {
-      institution: "84%",
-      position: "Bharathi Vidhyalaya Metric Hr Sec School.",
-      duration: "2018 - 2019(10th Standard)",
+      institution: "86%",
+      position: "Bharathi Vidhyalaya Matric Hr Sec School.",
+      duration: "2018 - 2019(SSLC)",
     },
     {
       institution: "85%",
       position: "Bharathi Vidhyalaya Higher Sec School.",
-      duration: "2020 - 2021(12th Standard)",
+      duration: "2020 - 2021(HSC)",
     },
     {
-      institution: "8 Cgpa(current)",
+      institution: "8Cgpa(current)",
       position: "KSR College of Engineering",
       duration: "2021-current(B.Tech IT)",
     },
@@ -112,6 +112,10 @@ const skills = {
     {
       icon: <FaNodeJs />,
       name: "Node.js",
+    },
+      {
+      icon: <SiExpress  />,
+      name: "Express.js",
     },
     {
       icon: <SiNextdotjs />,

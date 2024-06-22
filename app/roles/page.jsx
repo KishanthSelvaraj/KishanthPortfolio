@@ -26,7 +26,7 @@ const services = [
   {
     num: "04",
     title: "FullStack Development",
-    description: "I can create dyanamic projects using MERN Stack.",
+    description: "I can create dynamic projects using MERN Stack.",
     href: "",
   },
   

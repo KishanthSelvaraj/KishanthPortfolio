@@ -1,10 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
   "/projects/page": "app/projects/page.js",
+  "/roles/page": "app/roles/page.js",
   "/resume/page": "app/resume/page.js",
-  "/restricted/page": "app/restricted/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/roles/page": "app/roles/page.js"
+  "/contact/page": "app/contact/page.js"
 }
