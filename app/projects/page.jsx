@@ -29,7 +29,6 @@ const projects = [
   {
     num: "02",
     category: "frontend",
-<<<<<<< HEAD
     title: "Flames Game",
     description:
       "This is the flames game using html,css and js.",
@@ -45,12 +44,11 @@ const projects = [
     description:
       "This is a static project for mobile shop also with simple dynamic functions.",
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" } ,{name:"Node"}],
-=======
+
     title: "Mobile Shop Website",
     description:
       "This is a static project for mobile shop also with simple dynamic functions.",
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" } ,{name:"Node.js"}],
->>>>>>> 2e019b04b7ec2b8ea1ab749968094a6923bf086a
     image: "/assets/assets/work/thumb2.jpg",
     live: "https://mobile-showroom.vercel.app/",
     github: "/restricted",
@@ -61,11 +59,7 @@ const projects = [
     title: "Static Website",
     description:
       "This is the static websites with some animations using gsap.",
-<<<<<<< HEAD
-    stack: [{ name: "Html" }, { name: "Tailwind.Css" }, { name: "Bootstrap" }, { name: "Js" }, {name:"React"}],
-=======
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React.js"}],
->>>>>>> 2e019b04b7ec2b8ea1ab749968094a6923bf086a
     image: "/assets/assets/work/thumb3.jpg",
     live: "https://ils-jade.vercel.app/",
     github: "/restricted",
@@ -76,11 +70,7 @@ const projects = [
     title: "Interior Design Website",
     description:
       "This is a static project for interior design shop with simple dynamic functions.",
-<<<<<<< HEAD
-    stack: [{ name: "Html" }, { name: "Tailwind.Css" },{ name: "Bootstrap" }, { name: "Js" }, {name:"React"},{name:"Node"}],
-=======
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React.js"},{name:"Node.js"}],
->>>>>>> 2e019b04b7ec2b8ea1ab749968094a6923bf086a
     image: "/assets/assets/work/thumb4.jpg",
     live: "https://dream-interior-gold.vercel.app/",
     github: "/restricted",
