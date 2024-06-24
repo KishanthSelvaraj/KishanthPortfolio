@@ -81,7 +81,7 @@ const projects = [
     title: "Crud-Operation",
     description:
       "This is the dynamic Crud operarion using MERN Stack.",
-    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React"},{name:"Express"},{name:"Node"},{name:"Mongodb"}],
+    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"MERN"}],
     image: "/assets/assets/work/thumb5.jpg",
     live: "",
     github: "https://github.com/KishanthSelvaraj/CRUD-MERN",
@@ -92,7 +92,7 @@ const projects = [
     title: "Login-Authenticaiton",
     description:
       "This is the Login Authenticaiton with JWT token using MERN Stack",
-    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React"},{name:"Express"},{name:"Node"},{name:"Mongodb"}],
+    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"MERN"}],
     image: "/assets/assets/work/thumb6.jpg",
     live: "",
     github: "https://github.com/KishanthSelvaraj/USER_LOGIN",
