@@ -8,8 +8,7 @@ import {
   FaNodeJs,
   FaBootstrap,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs , SiMongodb ,SiExpress   } from "react-icons/si";
-import { SiSanity } from "react-icons"
+import { SiTailwindcss, SiNextdotjs , SiMongodb ,SiExpress,SiSanity } from "react-icons/si";
 
 const about = {
   title: "About me",
