@@ -21,7 +21,7 @@ const projects = [
     title: "CaterServ Website",
     description:
       "This is a frondend project which is duplication of real CaterServ website",
-    stack: [{ name: "Html" }, { name: "Css" },],
+    stack: [{ name: "Html" }, { name: "Css" }],
     image: "/assets/assets/work/thumb1.jpg",
     live: "https://caterserv.vercel.app/",
     github: "https://github.com/KishanthSelvaraj/Caterserv",
@@ -29,10 +29,8 @@ const projects = [
   {
     num: "02",
     category: "frontend",
-<<<<<<< HEAD
     title: "Flames Game",
-    description:
-      "This is the flames game using html,css and js.",
+    description: "This is the flames game using html,css and js.",
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }],
     image: "/assets/assets/work/thumb7.jpg",
     live: "https://flames-game-chi.vercel.app/",
@@ -44,13 +42,22 @@ const projects = [
     title: "Mobile Shop Website",
     description:
       "This is a static project for mobile shop also with simple dynamic functions.",
-    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" } ,{name:"Node"}],
-=======
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "Node" },
+    ],
+
     title: "Mobile Shop Website",
     description:
       "This is a static project for mobile shop also with simple dynamic functions.",
-    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" } ,{name:"Node.js"}],
->>>>>>> 2e019b04b7ec2b8ea1ab749968094a6923bf086a
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "Node.js" },
+    ],
     image: "/assets/assets/work/thumb2.jpg",
     live: "https://mobile-showroom.vercel.app/",
     github: "/restricted",
@@ -59,13 +66,13 @@ const projects = [
     num: "04",
     category: "frontend",
     title: "Static Website",
-    description:
-      "This is the static websites with some animations using gsap.",
-<<<<<<< HEAD
-    stack: [{ name: "Html" }, { name: "Tailwind.Css" }, { name: "Bootstrap" }, { name: "Js" }, {name:"React"}],
-=======
-    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React.js"}],
->>>>>>> 2e019b04b7ec2b8ea1ab749968094a6923bf086a
+    description: "This is the static websites with some animations using gsap.",
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "React.js" },
+    ],
     image: "/assets/assets/work/thumb3.jpg",
     live: "https://ils-jade.vercel.app/",
     github: "/restricted",
@@ -76,36 +83,105 @@ const projects = [
     title: "Interior Design Website",
     description:
       "This is a static project for interior design shop with simple dynamic functions.",
-<<<<<<< HEAD
-    stack: [{ name: "Html" }, { name: "Tailwind.Css" },{ name: "Bootstrap" }, { name: "Js" }, {name:"React"},{name:"Node"}],
-=======
-    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React.js"},{name:"Node.js"}],
->>>>>>> 2e019b04b7ec2b8ea1ab749968094a6923bf086a
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "React.js" },
+      { name: "Node.js" },
+    ],
     image: "/assets/assets/work/thumb4.jpg",
     live: "https://dream-interior-gold.vercel.app/",
     github: "/restricted",
   },
   {
     num: "06",
+    category: "frontend",
+    title: "Photography Website",
+    description:
+      "This is a static project for photography also with some animations using gsap.",
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "Next.js" },
+      { name: "Gsap" },
+    ],
+    image: "/assets/assets/work/thumb8.jpg",
+    live: "https://photography-rose-five.vercel.app/",
+    github: "/restricted",
+  },
+  {
+    num: "07",
     category: "Backend",
     title: "Crud-Operation",
-    description:
-      "This is the dynamic Crud operarion using MERN Stack.",
-    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React"},{name:"Express"},{name:"Node"},{name:"Mongodb"}],
+    description: "This is the dynamic Crud operarion using MERN Stack.",
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "React" },
+      { name: "Express" },
+      { name: "Node" },
+      { name: "Mongodb" },
+    ],
     image: "/assets/assets/work/thumb5.jpg",
     live: "",
     github: "https://github.com/KishanthSelvaraj/CRUD-MERN",
   },
   {
-    num: "07",
+    num: "08",
     category: "Backend",
     title: "Login-Authenticaiton",
     description:
       "This is the Login Authenticaiton with JWT token using MERN Stack",
-    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"React"},{name:"Express"},{name:"Node"},{name:"Mongodb"}],
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "React" },
+      { name: "Express" },
+      { name: "Node" },
+      { name: "Mongodb" },
+    ],
     image: "/assets/assets/work/thumb6.jpg",
     live: "",
     github: "https://github.com/KishanthSelvaraj/USER_LOGIN",
+  },
+  {
+    num: "09",
+    category: "Backend",
+    title: "Furniture(Fullstack)",
+    description:
+      "This is the fullstack furniture website using sanity cms and Next.js",
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "Next.js" },
+      { name: "Sanity CMS" },
+    ],
+    image: "/assets/assets/work/thumb9.jpg",
+    live: "https://nooks-tan.vercel.app/",
+    github: "/restricted",
+  },
+  {
+    num: "10",
+    category: "Backend",
+    title: "Ecommerce(Fullstack)",
+    description:
+      "This is the fullstack ecommerce website using Next.js, Sanity CMS, Shadcn UI with Stripe payment integration",
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "Next.js" },
+      { name: "Sanity CMS" },
+      { name: "Stripe" },
+    ],
+    image: "/assets/assets/work/thumb10.jpg",
+    live: "https://ecommerce-bdx.vercel.app/",
+    github: "https://github.com/KishanthSelvaraj/ECOMMERCE",
   },
 ];
 const Work = () => {
@@ -137,7 +213,7 @@ const Work = () => {
               </div>
               {/* project catogory */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.title} 
+                {project.title}
               </h2>
               {/* project description */}
               <p className="text-white/60">{project.description}</p>
