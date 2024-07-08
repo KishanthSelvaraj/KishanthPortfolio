@@ -120,10 +120,7 @@ const projects = [
       { name: "Html" },
       { name: "Css" },
       { name: "Js" },
-      { name: "React" },
-      { name: "Express" },
-      { name: "Node" },
-      { name: "Mongodb" },
+      { name: "MERN" },
     ],
     image: "/assets/assets/work/thumb5.jpg",
     live: "",
@@ -139,10 +136,7 @@ const projects = [
       { name: "Html" },
       { name: "Css" },
       { name: "Js" },
-      { name: "React" },
-      { name: "Express" },
-      { name: "Node" },
-      { name: "Mongodb" },
+      { name: "MERN" },
     ],
 
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"MERN"}],
@@ -157,9 +151,8 @@ const projects = [
     description:
       "This is the fullstack furniture website using sanity cms and Next.js",
     stack: [
-      { name: "Html" },
-      { name: "Css" },
-      { name: "Js" },
+      
+      { name: "Tailwind Css" },
       { name: "Next.js" },
       { name: "Sanity CMS" },
     ],
@@ -174,14 +167,13 @@ const projects = [
     description:
       "This is the fullstack ecommerce website using Next.js, Sanity CMS, Shadcn UI with Stripe payment integration",
     stack: [
-      { name: "Html" },
-      { name: "Css" },
-      { name: "Js" },
+   
+      { name: "Tailwind Css" },
       { name: "Next.js" },
       { name: "Sanity CMS" },
       { name: "Stripe" },
     ],
-    image: "/assets/assets/work/thumb10.jpg",
+  : "/assets/assets/work/thumb10.jpg",
     live: "https://ecommerce-bdx.vercel.app/",
     github: "https://github.com/KishanthSelvaraj/ECOMMERCE",
   },
