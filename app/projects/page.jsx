@@ -120,7 +120,10 @@ const projects = [
       { name: "Html" },
       { name: "Css" },
       { name: "Js" },
-      { name: "MERN" },
+      { name: "React" },
+      { name: "Express" },
+      { name: "Node" },
+      { name: "Mongodb" },
     ],
     image: "/assets/assets/work/thumb5.jpg",
     live: "",
@@ -132,8 +135,12 @@ const projects = [
     title: "Login-Authenticaiton",
     description:
       "This is the Login Authenticaiton with JWT token using MERN Stack",
-
-    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"MERN"}],
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "MERN" },
+    ],
     image: "/assets/assets/work/thumb6.jpg",
     live: "",
     github: "https://github.com/KishanthSelvaraj/USER_LOGIN",
@@ -144,12 +151,7 @@ const projects = [
     title: "Furniture(Fullstack)",
     description:
       "This is the fullstack furniture website using sanity cms and Next.js",
-    stack: [
-      
-      { name: "Tailwind Css" },
-      { name: "Next.js" },
-      { name: "Sanity CMS" },
-    ],
+    stack: [{ name: "Tailwind" }, { name: "Next.js" }, { name: "Sanity CMS" }],
     image: "/assets/assets/work/thumb9.jpg",
     live: "https://nooks-tan.vercel.app/",
     github: "/restricted",
@@ -161,13 +163,12 @@ const projects = [
     description:
       "This is the fullstack ecommerce website using Next.js, Sanity CMS, Shadcn UI with Stripe payment integration",
     stack: [
-   
-      { name: "Tailwind Css" },
+      { name: "Tailwind" },
       { name: "Next.js" },
       { name: "Sanity CMS" },
       { name: "Stripe" },
     ],
-  : "/assets/assets/work/thumb10.jpg",
+    image: "/assets/assets/work/thumb10.jpg",
     live: "https://ecommerce-bdx.vercel.app/",
     github: "https://github.com/KishanthSelvaraj/ECOMMERCE",
   },
