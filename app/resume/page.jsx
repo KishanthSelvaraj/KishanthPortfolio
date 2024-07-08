@@ -8,7 +8,7 @@ import {
   FaNodeJs,
   FaBootstrap,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs , SiMongodb ,SiExpress   } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs , SiMongodb ,SiExpress,SiSanity } from "react-icons/si";
 
 const about = {
   title: "About me",
@@ -132,6 +132,10 @@ const skills = {
     {
       icon: <SiMongodb  />,
       name: "Mongodb",
+    },
+     {
+      icon: <SiSanity  />,
+      name: "Sanity",
     },
     {
       icon: <FaFigma />,

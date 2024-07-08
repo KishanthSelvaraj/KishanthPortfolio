@@ -144,6 +144,8 @@ const projects = [
       { name: "Node" },
       { name: "Mongodb" },
     ],
+
+    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"MERN"}],
     image: "/assets/assets/work/thumb6.jpg",
     live: "",
     github: "https://github.com/KishanthSelvaraj/USER_LOGIN",
