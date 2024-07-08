@@ -132,12 +132,6 @@ const projects = [
     title: "Login-Authenticaiton",
     description:
       "This is the Login Authenticaiton with JWT token using MERN Stack",
-    stack: [
-      { name: "Html" },
-      { name: "Css" },
-      { name: "Js" },
-      { name: "MERN" },
-    ],
 
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"MERN"}],
     image: "/assets/assets/work/thumb6.jpg",
