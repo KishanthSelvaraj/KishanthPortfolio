@@ -156,8 +156,23 @@ const projects = [
     live: "https://nooks-tan.vercel.app/",
     github: "/restricted",
   },
-  {
+ {
     num: "10",
+    category: "Backend",
+    title: "Jamboard(Fullstack)",
+    description:
+      "This is the fullstack Jamboard website using MERN Stack with Socket.io",
+    stack: [
+      { name: "Tailwind" },
+      { name: "MERN Stack" },
+      { name: "Socket.io" },
+    ],
+    image: "/assets/assets/work/thumb11.png",
+    live: "",
+    github: "https://github.com/KishanthSelvaraj/Jamboard",
+  },
+  {
+    num: "11",
     category: "Backend",
     title: "Ecommerce(Fullstack)",
     description:
