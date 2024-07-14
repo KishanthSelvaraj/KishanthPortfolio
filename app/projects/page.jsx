@@ -148,7 +148,7 @@ const projects = [
   {
     num: "09",
     category: "Backend",
-    title: "Furniture(Fullstack)",
+    title: "Furniture Website",
     description:
       "This is the fullstack furniture website using sanity cms and Next.js",
     stack: [{ name: "Tailwind" }, { name: "Next.js" }, { name: "Sanity CMS" }],
@@ -159,7 +159,7 @@ const projects = [
  {
     num: "10",
     category: "Backend",
-    title: "Jamboard(Fullstack)",
+    title: "Jamboard Website",
     description:
       "This is the fullstack Jamboard website using MERN Stack with Socket.io",
     stack: [
@@ -174,7 +174,7 @@ const projects = [
   {
     num: "11",
     category: "Backend",
-    title: "Ecommerce(Fullstack)",
+    title: "Ecommerce Website",
     description:
       "This is the fullstack ecommerce website using Next.js, Sanity CMS, Shadcn UI with Stripe payment integration",
     stack: [
@@ -225,7 +225,7 @@ const Work = () => {
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
                   return (
-                    <li key={index} className="text-xl text-accent">
+                    <li key={index} className="text-md text-accent">
                       {item.name}
                       {/* remove the last commo */}
                       {index !== project.stack.length - 1 && ","}
