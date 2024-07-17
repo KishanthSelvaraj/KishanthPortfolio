@@ -113,6 +113,22 @@ const projects = [
   },
   {
     num: "07",
+    category: "frontend",
+    title: "Weather App",
+    description:
+      "This is a frontend project for weather checking using React js and Open weather api.",
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "React.js" },
+    ],
+    image: "/assets/assets/work/thumb12.jpg",
+    live: "https://weather-app-kappa-teal-27.vercel.app/",
+    github: "https://github.com/KishanthSelvaraj/Weather-App",
+  },
+  {
+    num: "08",
     category: "Backend",
     title: "Crud-Operation",
     description: "This is the dynamic Crud operarion using MERN Stack.",
@@ -120,14 +136,14 @@ const projects = [
       { name: "Html" },
       { name: "Css" },
       { name: "Js" },
-     { name: "MERN" },
+      { name: "MERN" },
     ],
     image: "/assets/assets/work/thumb5.jpg",
     live: "",
     github: "https://github.com/KishanthSelvaraj/CRUD-MERN",
   },
   {
-    num: "08",
+    num: "09",
     category: "Backend",
     title: "Login-Authenticaiton",
     description:
@@ -143,7 +159,7 @@ const projects = [
     github: "https://github.com/KishanthSelvaraj/USER_LOGIN",
   },
   {
-    num: "09",
+    num: "10",
     category: "Backend",
     title: "Furniture Website",
     description:
@@ -153,15 +169,15 @@ const projects = [
     live: "https://nooks-tan.vercel.app/",
     github: "/restricted",
   },
- {
-    num: "10",
+  {
+    num: "11",
     category: "Backend",
     title: "Jamboard Website",
     description:
       "This is the fullstack Jamboard website using MERN Stack with Socket.io",
     stack: [
       { name: "Tailwind" },
- { name: "MERN" },
+      { name: "MERN Stack" },
       { name: "Socket.io" },
     ],
     image: "/assets/assets/work/thumb11.png",
@@ -169,7 +185,7 @@ const projects = [
     github: "https://github.com/KishanthSelvaraj/Jamboard",
   },
   {
-    num: "11",
+    num: "12",
     category: "Backend",
     title: "Ecommerce Website",
     description:
@@ -184,6 +200,7 @@ const projects = [
     live: "https://ecommerce-bdx.vercel.app/",
     github: "https://github.com/KishanthSelvaraj/ECOMMERCE",
   },
+ 
 ];
 const Work = () => {
   const [project, setProject] = useState(projects[0]);
