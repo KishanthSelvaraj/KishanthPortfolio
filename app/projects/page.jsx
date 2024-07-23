@@ -20,24 +20,24 @@ const projects = [
     category: "frontend",
     title: "CaterServ Website",
     description:
-      "This is a frondend project which is duplication of real CaterServ website",
+      "This is a frontend project which is duplication of real CaterServ website",
     stack: [{ name: "Html" }, { name: "Css" }],
     image: "/assets/assets/work/thumb1.jpg",
     live: "https://caterserv.vercel.app/",
     github: "https://github.com/KishanthSelvaraj/Caterserv",
   },
+  // {
+  //   num: "02",
+  //   category: "frontend",
+  //   title: "Flames Game",
+  //   description: "This is the flames game using html,css and js.",
+  //   stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }],
+  //   image: "/assets/assets/work/thumb7.jpg",
+  //   live: "https://flames-game-chi.vercel.app/",
+  //   github: "https://github.com/KishanthSelvaraj/FLAMES-GAME",
+  // },
   {
     num: "02",
-    category: "frontend",
-    title: "Flames Game",
-    description: "This is the flames game using html,css and js.",
-    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }],
-    image: "/assets/assets/work/thumb7.jpg",
-    live: "https://flames-game-chi.vercel.app/",
-    github: "https://github.com/KishanthSelvaraj/FLAMES-GAME",
-  },
-  {
-    num: "03",
     category: "frontend",
     title: "Mobile Shop Website",
     description:
@@ -48,22 +48,12 @@ const projects = [
       { name: "Js" },
       { name: "Node" },
     ],
-
-    title: "Mobile Shop Website",
-    description:
-      "This is a static project for mobile shop also with simple dynamic functions.",
-    stack: [
-      { name: "Html" },
-      { name: "Css" },
-      { name: "Js" },
-      { name: "Node.js" },
-    ],
     image: "/assets/assets/work/thumb2.jpg",
     live: "https://mobile-showroom.vercel.app/",
     github: "/restricted",
   },
   {
-    num: "04",
+    num: "03",
     category: "frontend",
     title: "Static Website",
     description: "This is the static websites with some animations using gsap.",
@@ -78,7 +68,7 @@ const projects = [
     github: "/restricted",
   },
   {
-    num: "05",
+    num: "04",
     category: "frontend",
     title: "Interior Design Website",
     description:
@@ -95,7 +85,7 @@ const projects = [
     github: "/restricted",
   },
   {
-    num: "06",
+    num: "05",
     category: "frontend",
     title: "Photography Website",
     description:
@@ -112,18 +102,31 @@ const projects = [
     github: "/restricted",
   },
   {
-    num: "07",
-    category: "Backend",
-    title: "Crud-Operation",
-    description: "This is the dynamic Crud operarion using MERN Stack.",
+    num: "06",
+    category: "frontend",
+    title: "Weather App",
+    description:
+      "This is a frontend project for weather checking using React js and Open weather api.",
     stack: [
       { name: "Html" },
       { name: "Css" },
       { name: "Js" },
-      { name: "React" },
-      { name: "Express" },
-      { name: "Node" },
-      { name: "Mongodb" },
+      { name: "React.js" },
+    ],
+    image: "/assets/assets/work/thumb12.jpg",
+    live: "https://weather-app-kappa-teal-27.vercel.app/",
+    github: "https://github.com/KishanthSelvaraj/Weather-App",
+  },
+  {
+    num: "07",
+    category: "Backend",
+    title: "Crud-Operation",
+    description: "This is the dynamic Crud Oxperation using MERN Stack.",
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "MERN" },
     ],
     image: "/assets/assets/work/thumb5.jpg",
     live: "",
@@ -132,20 +135,16 @@ const projects = [
   {
     num: "08",
     category: "Backend",
-    title: "Login-Authenticaiton",
+    title: "Login-Authentication",
     description:
-      "This is the Login Authenticaiton with JWT token using MERN Stack",
+      "This is the Login Authentication with JWT token using MERN Stack",
     stack: [
       { name: "Html" },
       { name: "Css" },
       { name: "Js" },
-      { name: "React" },
-      { name: "Express" },
-      { name: "Node" },
-      { name: "Mongodb" },
+      { name: "MERN" },
+      { name: "JWT token" },
     ],
-
-    stack: [{ name: "Html" }, { name: "Css" }, { name: "Js" }, {name:"MERN"}],
     image: "/assets/assets/work/thumb6.jpg",
     live: "",
     github: "https://github.com/KishanthSelvaraj/USER_LOGIN",
@@ -153,16 +152,10 @@ const projects = [
   {
     num: "09",
     category: "Backend",
-    title: "Furniture(Fullstack)",
+    title: "Furniture Website",
     description:
       "This is the fullstack furniture website using sanity cms and Next.js",
-    stack: [
-      { name: "Html" },
-      { name: "Css" },
-      { name: "Js" },
-      { name: "Next.js" },
-      { name: "Sanity CMS" },
-    ],
+    stack: [{ name: "Tailwind" }, { name: "Next.js" }, { name: "Sanity CMS" }],
     image: "/assets/assets/work/thumb9.jpg",
     live: "https://nooks-tan.vercel.app/",
     github: "/restricted",
@@ -170,13 +163,26 @@ const projects = [
   {
     num: "10",
     category: "Backend",
-    title: "Ecommerce(Fullstack)",
+    title: "Jamboard Website",
     description:
-      "This is the fullstack ecommerce website using Next.js, Sanity CMS, Shadcn UI with Stripe payment integration",
+      "This is the fullstack Jamboard website using MERN Stack with Socket.io",
     stack: [
-      { name: "Html" },
-      { name: "Css" },
-      { name: "Js" },
+      { name: "Tailwind" },
+      { name: "MERN Stack" },
+      { name: "Socket.io" },
+    ],
+    image: "/assets/assets/work/thumb11.png",
+    live: "",
+    github: "https://github.com/KishanthSelvaraj/Jamboard",
+  },
+  {
+    num: "11",
+    category: "Backend",
+    title: "Bikes Ecommerce",
+    description:
+      "This is the fullstack ecommerce website using Next.js, Sanity Headless CMS, Shadcn UI with Stripe payment integration",
+    stack: [
+      { name: "Tailwind" },
       { name: "Next.js" },
       { name: "Sanity CMS" },
       { name: "Stripe" },
@@ -185,6 +191,23 @@ const projects = [
     live: "https://ecommerce-bdx.vercel.app/",
     github: "https://github.com/KishanthSelvaraj/ECOMMERCE",
   },
+  {
+    num: "12",
+    category: "Backend",
+    title: "Clothes Ecommerce",
+    description:
+      "This is the fullstack ecommerce website using React.js, Express.js, Node.js and MongoDB with Stripe payment integration",
+    stack: [
+      { name: "Tailwind" },
+      { name: "MERN" },
+      { name: "JWT token" },
+      { name: "Stripe" },
+    ],
+    image: "/assets/assets/work/thumb13.jpg",
+    live: "",
+    github: "https://github.com/KishanthSelvaraj/ECOMMERCE-MERN",
+  },
+ 
 ];
 const Work = () => {
   const [project, setProject] = useState(projects[0]);
@@ -223,7 +246,7 @@ const Work = () => {
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
                   return (
-                    <li key={index} className="text-xl text-accent">
+                    <li key={index} className="text-md text-accent">
                       {item.name}
                       {/* remove the last commo */}
                       {index !== project.stack.length - 1 && ","}

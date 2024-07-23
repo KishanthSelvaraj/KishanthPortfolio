@@ -8,7 +8,7 @@ import {
   FaNodeJs,
   FaBootstrap,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs , SiMongodb ,SiExpress,SiSanity } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs , SiMongodb ,SiExpress,SiSanity, SiFirebase } from "react-icons/si";
 
 const about = {
   title: "About me",
@@ -25,7 +25,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "6 Months",
+      fieldValue: "7 Months",
     },
     {
       fieldName: "Email",
@@ -52,12 +52,12 @@ const experience = {
   icon: "/assets/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "I have done my 6 months of Internship in Axexa Technology Solution.",
+    "I have done my 7 months of Internship in Axexa Technology Solution.",
   items: [
     {
       company: "Axexa Technology Solution",
       position: "FullStack Developer(Intern)",
-      duration: "6 Months",
+      duration: "Jan-2024 - Present",
     },
   ],
 };
@@ -81,7 +81,7 @@ const education = {
     {
       institution: "8Cgpa(current)",
       position: "KSR College of Engineering",
-      duration: "2021-current(B.Tech IT)",
+      duration: "2021-Present(B.Tech IT)",
     },
     
   ],
@@ -133,9 +133,13 @@ const skills = {
       icon: <SiMongodb  />,
       name: "Mongodb",
     },
+    {
+      icon: <SiFirebase />,
+      name: "Firebase",
+    },
      {
       icon: <SiSanity  />,
-      name: "Sanity",
+      name: "Sanity CMS",
     },
     {
       icon: <FaFigma />,

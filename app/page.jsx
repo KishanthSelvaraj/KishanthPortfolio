@@ -34,7 +34,7 @@ const Home = () => {
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href="/assets/assets/Kishanth.Resume.jpg"
+                href="/assets/assets/resume/Kishanth.Resume.jpg"
                 download={"Resume_image"}
               >
                 <Button

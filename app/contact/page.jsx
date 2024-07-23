@@ -31,7 +31,7 @@ const info = [
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "4/131E,Maiyl vaganam street, Annanagar,Namakkal.(637002)",
+    description: "4/131E,Maiyl vaganam street, Annanagar,Namakkal-(637002)",
   },
 
 ];
