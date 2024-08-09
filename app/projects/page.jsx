@@ -119,6 +119,22 @@ const projects = [
   },
   {
     num: "07",
+    category: "frontend",
+    title: "Currency Convertor",
+    description:
+      "This is a frontend project for Currency converting using React js and frankfurter api.",
+    stack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "Js" },
+      { name: "React.js" },
+    ],
+    image: "/assets/assets/work/thumb15.jpg",
+    live: "https://currency-app-rosy.vercel.app/",
+    github: "https://github.com/KishanthSelvaraj/Currency-App",
+  },
+  {
+    num: "08",
     category: "Backend",
     title: "Crud-Operation",
     description: "This is the dynamic Crud Oxperation using MERN Stack.",
@@ -133,7 +149,7 @@ const projects = [
     github: "https://github.com/KishanthSelvaraj/CRUD-MERN",
   },
   {
-    num: "08",
+    num: "09",
     category: "Backend",
     title: "Login-Authentication",
     description:
@@ -150,7 +166,7 @@ const projects = [
     github: "https://github.com/KishanthSelvaraj/USER_LOGIN",
   },
   {
-    num: "09",
+    num: "10",
     category: "Backend",
     title: "Furniture Website",
     description:
@@ -161,7 +177,7 @@ const projects = [
     github: "/restricted",
   },
   {
-    num: "10",
+    num: "11",
     category: "Backend",
     title: "Jamboard Website",
     description:
@@ -176,7 +192,22 @@ const projects = [
     github: "https://github.com/KishanthSelvaraj/Jamboard",
   },
   {
-    num: "11",
+    num: "12",
+    category: "Backend",
+    title: "Whatsapp Clone",
+    description:
+      "This is the fullstack Group Chating website using MERN Stack with Socket.io",
+    stack: [
+      { name: "Tailwind" },
+      { name: "MERN Stack" },
+      { name: "Socket.io" },
+    ],
+    image: "/assets/assets/work/thumb14.jpg",
+    live: "https://chat-app-delta-khaki.vercel.app/",
+    github: "https://github.com/KishanthSelvaraj/Chat-app",
+  },
+  {
+    num: "13",
     category: "Backend",
     title: "Bikes Ecommerce",
     description:
@@ -192,7 +223,7 @@ const projects = [
     github: "https://github.com/KishanthSelvaraj/ECOMMERCE",
   },
   {
-    num: "12",
+    num: "14",
     category: "Backend",
     title: "Clothes Ecommerce",
     description:
