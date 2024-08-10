@@ -194,7 +194,7 @@ const projects = [
   {
     num: "12",
     category: "Backend",
-    title: "Whatsapp Clone",
+    title: "Messenger App",
     description:
       "This is the fullstack Group Chating website using MERN Stack with Socket.io",
     stack: [
