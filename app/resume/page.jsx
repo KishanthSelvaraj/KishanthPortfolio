@@ -25,11 +25,11 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "7 Months",
+      fieldValue: "9 Months",
     },
     {
       fieldName: "Email",
-      fieldValue: "ceitkishanth25@gmail.com",
+      fieldValue: "kishanthnkl@gmail.com",
     },
     {
       fieldName: "Nationality",
@@ -52,12 +52,12 @@ const experience = {
   icon: "/assets/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "I have done my 7 months of Internship in Axexa Technology Solution.",
+    "I have done my 9 months of Internship in Axexa Technology Solution.",
   items: [
     {
       company: "Axexa Technology Solution",
       position: "FullStack Developer(Intern)",
-      duration: "Jan-2024 - Present",
+      duration: "Dec-2023 - Present",
     },
   ],
 };
@@ -79,7 +79,7 @@ const education = {
       duration: "2020 - 2021(HSC)",
     },
     {
-      institution: "8Cgpa(current)",
+      institution: "8.1 Cgpa(current)",
       position: "KSR College of Engineering",
       duration: "2021-Present(B.Tech IT)",
     },
