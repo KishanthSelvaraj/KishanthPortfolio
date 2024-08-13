@@ -30,7 +30,7 @@ const Home = () => {
               <span className="text-accent">Kishanth S</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I am a full stack developer and the UI/UX Designer{" "}
+              I'm Full stack developer and the UI/UX Designer{" "}
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
