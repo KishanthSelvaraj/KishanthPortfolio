@@ -7,6 +7,7 @@ import {
   FaFigma,
   FaNodeJs,
   FaBootstrap,
+   FaGithub,
 } from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs , SiMongodb ,SiExpress,SiSanity, SiFirebase } from "react-icons/si";
 
@@ -25,7 +26,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "9 Months",
+      fieldValue: "10 Months",
     },
     {
       fieldName: "Email",
@@ -52,7 +53,7 @@ const experience = {
   icon: "/assets/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "I have done my 9 months of Internship in Axexa Technology Solution.",
+    "I have done my 10 months of Internship in Axexa Technology Solution.",
   items: [
     {
       company: "Axexa Technology Solution",
@@ -69,7 +70,7 @@ const education = {
     "I'm currently pursuing B.Tech Information Technology final year in KSR College of Engineering.",
   items: [
     {
-      institution: "86%",
+      institution: "84%",
       position: "Bharathi Vidhyalaya Matric Hr Sec School.",
       duration: "2018 - 2019(SSLC)",
     },
@@ -79,7 +80,7 @@ const education = {
       duration: "2020 - 2021(HSC)",
     },
     {
-      institution: "8.1 Cgpa(current)",
+      institution: "8.05 Cgpa(current)",
       position: "KSR College of Engineering",
       duration: "2021-Present(B.Tech IT)",
     },
@@ -144,6 +145,10 @@ const skills = {
     {
       icon: <FaFigma />,
       name: "Figma",
+    },
+      {
+      icon: <FaGithub />,
+      name: "Github",
     },
   ],
 };
